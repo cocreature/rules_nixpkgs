@@ -17,7 +17,7 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/).
 - Bazel Skylib is now included as a dependency on `rules_nixpkgs_dependencies`.
   See [#125][#125].
 - `nixpkgs_python_configure` now exposes the `quiet` attribute for the
-  underlying `nispkgs_package`.
+  underlying `nixpkgs_package`.
   See [#131][#131].
 - The default `BUILD` file of `nixpkgs_package` now finds more kinds of C/C++
   header files in the `include` target.
